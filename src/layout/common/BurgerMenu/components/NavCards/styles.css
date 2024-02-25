@@ -1,0 +1,19 @@
+.card-link {
+  text-decoration: none;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff5d6;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 100%;
+  border-radius: 8.855px;
+  background: linear-gradient(
+    90deg,
+    #292a37 2.37%,
+    rgba(39, 40, 48, 0.1) 68.47%,
+    rgba(39, 39, 46, 0) 100%
+  );
+}

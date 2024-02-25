@@ -1,0 +1,21 @@
+.icon-container {
+  display: inline-flex;
+  position: relative;
+  transform: transform 150ms;
+}
+
+.up {
+  transform: rotate(0deg);
+}
+
+.down {
+  transform: rotate(180deg);
+}
+
+.left {
+  transform: rotate(90deg);
+}
+
+.right {
+  transform: rotate(270deg);
+}

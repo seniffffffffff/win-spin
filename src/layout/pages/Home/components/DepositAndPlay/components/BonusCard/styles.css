@@ -1,0 +1,52 @@
+.bonus-card-div {
+  width: 310px;
+  height: 96px;
+  padding: 16px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.red {
+  background: url("../../../../assets/red-card.webp");
+}
+
+.blue {
+  background: url("../../../../assets/blue-card.webp");
+}
+
+.purple {
+  background: url("../../../../assets/purple-card.webp");
+}
+
+.icon-text-div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.text-bonus-card {
+  max-width: 146px;
+  color: #fff;
+  font-family: "Merriweather Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.ws-nowrap {
+  white-space: nowrap;
+}
+
+.bonus-card-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-right: 20px;
+}
+
+.arrow-down-div {
+  cursor: pointer;
+}

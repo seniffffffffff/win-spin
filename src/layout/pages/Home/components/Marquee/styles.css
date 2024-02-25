@@ -1,0 +1,84 @@
+.marquee-content-wrapper {
+  height: 125px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: -10px;
+  right: -19px;
+}
+
+.top-pic-div {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  background: #081125;
+}
+
+.top-picture {
+  z-index: 3;
+}
+
+.marquee {
+  width: 100%;
+  z-index: 3;
+  background: #081125;
+}
+
+.big-text {
+  width: 45px;
+  background: red;
+  white-space: wrap;
+  color: #fff;
+  font-family: "AA BadaBoom BB";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2.1px;
+  background: #081125;
+  margin-right: 40px;
+}
+
+.small-text {
+  width: 101px;
+  color: var(--white, #fff);
+  font-family: "Merriweather Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.yellow {
+  color: #fcc211;
+}
+
+.marquee-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-img-div {
+  position: absolute;
+  bottom: 5px;
+  z-index: 2;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.marquee-content-small-text {
+  width: 91px;
+  height: 50px;
+  color: #fff;
+  font-family: "Merriweather Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}

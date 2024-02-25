@@ -1,0 +1,57 @@
+.fire-button {
+  position: relative;
+  border: none;
+  width: 170px;
+  height: 52px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  padding: 7px 9px 7px 9px;
+  color: #fff;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  cursor: pointer;
+}
+
+.green-button {
+  background: #4d583b;
+}
+
+.green-button:hover {
+  background: #5b6c4d;
+}
+
+.red-button {
+  background: #783d3d;
+}
+
+.red-button:hover {
+  background: #8c4d4d;
+}
+
+.gray-blue-button {
+  background: #36474d;
+}
+
+.gray-blue-button:hover {
+  background: #4d6c78;
+}
+
+.purple-button {
+  background: #5b3d69;
+}
+
+.purple-button:hover {
+  background: #6c4d7d;
+}
+
+.fire-button-div {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

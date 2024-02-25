@@ -1,0 +1,76 @@
+.deposit-div {
+  margin-top: 100px;
+  padding: 0 16.5px 25px 16.5px;
+  width: 343px;
+  height: 300px;
+  position: relative;
+  background: linear-gradient(181deg, #faff00 2.6%, #be2929 60.69%), #f00;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  transition: all 1s ease-in-out;
+}
+
+.deposit-div-opened {
+  height: 361px;
+}
+
+.big-flame-img {
+  position: absolute;
+  width: 100%;
+  top: -83px;
+  left: 0;
+  z-index: 1;
+}
+
+.article {
+  margin-top: 10px;
+  color: #05071a;
+  text-align: center;
+  font-family: "AA BadaBoom BB";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 1.8px;
+}
+
+.welcome-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  transition: all 3s linear;
+}
+
+.card-opened {
+  transition: all 1s ease;
+}
+
+.selects-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  overflow: hidden;
+  transition: all 1s linear;
+  opacity: 0;
+  max-height: 0;
+}
+
+.card-container.open {
+  opacity: 1;
+  max-height: 300px;
+}

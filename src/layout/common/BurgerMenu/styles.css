@@ -1,0 +1,44 @@
+.burger {
+  position: relative;
+  padding: 10px;
+  height: 53px;
+  width: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4px;
+  background: transparent;
+  border: 5px solid #e11717;
+  border-radius: 50%;
+  cursor: pointer;
+  background: linear-gradient(180deg, #fff1bd 0%, #ffcdb0 100%), #ffc7c7;
+  z-index: 100;
+}
+
+.flame {
+  position: absolute;
+  bottom: 23px;
+  left: 0;
+}
+
+.burger-line {
+  height: 2.1px;
+  background: #4e3535;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+.burger-line-small {
+  width: 16px;
+}
+
+.burger-line-middle {
+  width: 21px;
+}
+
+.burger-line-big {
+  width: 26px;
+}

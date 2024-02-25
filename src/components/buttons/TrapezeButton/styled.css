@@ -1,0 +1,49 @@
+.trapezoid-button {
+  position: relative;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.gradient {
+  filter: drop-shadow(0px 0px 24px rgba(255, 77, 0, 0.87));
+}
+
+.trapeze-button-text {
+  text-align: center;
+  font-family: "Merriweather Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.trapezoid-button-up {
+  transform: rotate(180deg);
+}
+
+.trapezoid-button-down {
+  transform: rotate(0deg);
+}
+
+.trapezoid-button-up-content {
+  color: #fff;
+  transform: rotate(180deg);
+}
+
+.trapezoid-button-down-content {
+  color: #fff;
+  transform: rotate(0deg);
+}
+
+.primary {
+  color: #05071a;
+}
+
+.secondary {
+  color: #fff;
+}
+
+.w130 {
+  width: 130px;
+}

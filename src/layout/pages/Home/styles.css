@@ -1,0 +1,14 @@
+.home-wrapper {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.buttons-group {
+  position: relative;
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  z-index: 5;
+}
